@@ -1,6 +1,6 @@
-//Í¼ÊéÊµÌå
+//å›¾ä¹¦å®ä½“
 public class BOOK {
-    //ÊôĞÔ£¨³ÉÔ±±äÁ¿£©
+    //å±æ€§ï¼ˆæˆå‘˜å˜é‡ï¼‰
     private String isbn;
     private String class1;
     private String subclass;
@@ -10,7 +10,7 @@ public class BOOK {
     private String pubdate;
     private String introduction;
 
-    //¹¹Ôìº¯Êı
+    //æ„é€ å‡½æ•°
     public String getisbn() { return isbn; }
     public void setisbn(String isbn) { this.isbn = isbn; }
     public String getclass1() {return class1; }
@@ -40,4 +40,5 @@ public class BOOK {
         this.pubdate = pubdate;
         this.introduction = introduction;
     }
+    
 }
